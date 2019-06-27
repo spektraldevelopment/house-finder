@@ -4,8 +4,10 @@ import Vuex from 'vuex';
 Vue.use(Vuex)
 
 const store = new Vuex.Store({
-    state: {
-        title: 'House Finder'
+    state() {
+        return {
+          title: 'House Finder!!!!'
+        }
     },
     mutations: {},
     actions: {},
